@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { Component } from "react";
 import Section1 from "./section1/index";
 import Section2 from "./section2/index";
 import Section3 from "./section3/index";
