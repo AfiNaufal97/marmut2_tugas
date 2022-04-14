@@ -1,9 +1,5 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import Marmut1 from "../../../assets/image/marmut1.svg";
-import Marmut2 from "../../../assets/image/marmut2.svg";
-import Marmut3 from "../../../assets/image/marmut3.svg";
-import Marmut4 from "../../../assets/image/marmut4.svg";
 
 export default class MultipleItems extends Component {
   render() {
@@ -20,7 +16,7 @@ export default class MultipleItems extends Component {
         <Slider {...settings}>
           <div className="shadow-lg shadow-slate-300 bg-white rounded-[20px] mr-5">
             <img
-              src={Marmut1}
+              src='https://res.cloudinary.com/dycpjvu2b/image/upload/v1649886803/marmut1_h4eukg.svg'
               alt="e"
               className="w-[500px] h-[300px] mx-auto"
             />
@@ -29,7 +25,7 @@ export default class MultipleItems extends Component {
           </div>
           <div className="shadow-lg shadow-slate-300 bg-white mb-[30px] rounded-[20px] mr-5">
             <img
-              src={Marmut2}
+              src='https://res.cloudinary.com/dycpjvu2b/image/upload/v1649886800/marmut2_egzjyy.svg'
               alt="e"
               className="w-[500px] h-[300px] mx-auto"
             />
@@ -38,7 +34,7 @@ export default class MultipleItems extends Component {
           </div>
           <div className="shadow-lg shadow-slate-300 bg-white mb-[30px] rounded-[20px] mr-5">
             <img
-              src={Marmut3}
+              src='https://res.cloudinary.com/dycpjvu2b/image/upload/v1649886802/marmut3_gckqde.svg'
               alt="e"
               className="w-[500px] h-[300px] mx-auto"
             />
@@ -47,7 +43,7 @@ export default class MultipleItems extends Component {
           </div>
           <div className="shadow-lg shadow-slate-300 bg-white mb-[30px] rounded-[20px] mr-5">
             <img
-              src={Marmut4}
+              src='https://res.cloudinary.com/dycpjvu2b/image/upload/v1649886799/marmut4_ptfqhk.svg'
               alt="e"
               className="w-[500px] h-[300px] mx-auto"
             />

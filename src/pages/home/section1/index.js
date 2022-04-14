@@ -29,7 +29,7 @@ export default function index() {
         </button>
       </div>
 
-      <img src={MainImg} alt="Marmut Top" className="m-auto md:w-[436px] md:h-[357px] md:-mr-5 lg:w-[536px] lg:h-[457px] lg:-mr-5 xl:w-[636px] xl:h-[557px] xl:mr-[35px] 2xl:w-[836px] 2xl:h-[757px] 2xl:mr-[20px]"/>
+      <img src='https://res.cloudinary.com/dycpjvu2b/image/upload/v1649886802/main_img_ugflq4.svg' alt="Marmut Top" className="m-auto md:w-[436px] md:h-[357px] md:-mr-5 lg:w-[536px] lg:h-[457px] lg:-mr-5 xl:w-[636px] xl:h-[557px] xl:mr-[35px] 2xl:w-[836px] 2xl:h-[757px] 2xl:mr-[20px]"/>
       <div className="flex max-w-sm justify-center">
         <button className="bg-[#CA965D] text-white py-[20px] px-[30px] rounded-2xl md:hidden">
           Selengkapnya
