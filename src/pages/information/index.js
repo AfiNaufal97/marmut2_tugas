@@ -11,7 +11,7 @@ export default class index extends Component {
 
   render(){
     return (
-      <div className="my-[30px] max-w-sm mx-auto md:max-w-4xl">
+      <div className="my-[30px] max-w-sm mx-auto md:max-w-4xl relative">
          <Section1 />
          <Section2 />
          <Section3 />

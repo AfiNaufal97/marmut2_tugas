@@ -2,11 +2,11 @@ import React, { Component } from "react";
 import Section1 from "./section1/index";
 import Section2 from "./section2/index";
 import Section3 from "./section3/index";
+import { connect } from "react-redux";
 
 class index extends Component {
-
-  componentDidMount(){
-    document.title = "Marmoot | Home"
+  componentDidMount() {
+    document.title = "Marmoot | Home";
   }
 
   render() {
@@ -20,4 +20,8 @@ class index extends Component {
   }
 }
 
-export default index;
+const store = (state) => {
+  console.log(state);
+};
+
+export default connect(store)(index);

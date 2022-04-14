@@ -14,8 +14,12 @@ export default function index() {
         <p className="my-[10px] cursor-pointer md:mx-[10px]">
           <Link to="/information">Information</Link>
         </p>
-        <p className="my-[10px] cursor-pointer md:mx-[10px]">About</p>
-        <p className="my-[10px] cursor-pointer">SignUp</p>
+        <p className="my-[10px] cursor-pointer md:mx-[10px]">
+          <Link to="/behavarior">Behavarior</Link>
+        </p>
+        <p className="my-[10px] cursor-pointer">
+          <Link to="/anatomy">SignUp</Link>
+        </p>
       </div>
     </div>
   );
