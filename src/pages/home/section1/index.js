@@ -1,5 +1,4 @@
 import React from "react";
-import MainImg from "../../../assets/image/main_img.svg";
 
 export default function index() {
   return (

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function index() {
   return (
-    <div className="bg-[#EEC374] -bottom-[20px]">
+    <div className="bg-[#EEC374] -bottom-[20px] ">
       <div className="max-w-full rounded-t-[20px] py-[20px] md:grid md:grid-cols-2 lg:max-w-4xl lg:mx-auto lg:my-auto xl:grid-cols-4">
         <div className="max-w-sm mx-auto xl:my-auto">
           <p className="text-center font-bold text-[24px] my-[20px]">Marmoot</p>
@@ -43,4 +43,5 @@ export default function index() {
         </div>
     </div>
   );
+
 }

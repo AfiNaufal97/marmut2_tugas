@@ -1,17 +1,21 @@
-import rootStore from './RootStore'
+export const rootStore = {
+  position: "",
+  information: false,
+};
 
-const Reducer = (state = rootStore, action) =>{
-    if(action.type === 'information'){
-        return {
-            ...rootStore,
-            position:'information'
-        }
-    }else if(action.type === 'home'){
-        return {
-            ...rootStore,
-            position:'home'
-        }
-    }
-}
+const Reducer = (state = rootStore, action) => {
+  if (action.type === "information") {
+    return {
+      ...state,
+      information: !state.information,
+    };
+  } else if (action.type === "home") {
+    return {
+      ...state,
+      position: "home",
+    };
+  }
+  return state
+};
 
-export default Reducer
+export default Reducer;
