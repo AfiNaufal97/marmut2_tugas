@@ -6,7 +6,7 @@ export default function index() {
   return (
     <div className="mb-[100px] mt-[100px] md:grid md:grid-cols-2  lg:grid-cols-2   xl:grid-cols-3">
       {JsonFile.geleryObject.map((e) => {
-        <Link to="/detail">
+        return <Link to="/detail">
           return (
           <div className="max-w-sm mx-auto h-[400px]">
             <div className="bg-white shadow-lg shadow-slate-400 rounded-[30px] p-2 group">
