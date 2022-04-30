@@ -1,0 +1,174 @@
+{
+    "objectData" : [
+        {
+          "title": "Mata",
+          "text": "(Merah untuk albino dan hitam untuk Marmut biasa)"
+        },
+        {
+          "title": "Telinga",
+          "text": "(Merah untuk albino dan hitam untuk Marmut biasa)"
+        },
+        {
+          "title": "Bulu",
+          "text": "(bisa hitam, putih, coklat atau campuran)"
+        },
+        {
+          "title": "Tidak ada ekor",
+          "text": "Marmut Tidak Memiliki Ekor"
+        },
+        {
+          "title": "Kumis Sensorik",
+          "text": "Kumis Yang memeiliki sensor untuk mendeteksi"
+        },
+        {
+          "title": "Kaki Belakang",
+          "text": "Memiliki 3 cakar pada kaki belakang"
+        },
+        {
+          "title": "Kaki Depan",
+          "text": "Memiliki 4 cakar pada kaki depan"
+        },
+      
+        {
+          "title": "Mulut",
+          "text": ""
+        },
+        {
+          "title": "Hidung",
+          "text": ""
+        }
+      ],
+      "geleryObject" : [
+        {
+          "url": "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650225705/katherine-mcadoo-vSS2_KfzbLY-unsplash_xpvogq.jpg",
+          "name": "Abyssinian Marmut",
+          "rate":"4/5",
+          "dec":"Memiliki bulu yang lebat di seluruh badanya, mirip seperti boneka."
+        },
+        {
+          "url": "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650225706/karlijn-prot-5hMlxeWjVCo-unsplash_ovgjtq.jpg",
+          "name": "Himalaya Marmut",
+          "rate":"2/5",
+          "dec":"Memiliki bulu pendek."
+        },
+        {
+          "url": "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650225706/matthew-halmshaw-Lb261syOPVU-unsplash_nef8x4.jpg",
+          "name": "Texel Marmut",
+          "rate":"4/5",
+          "dec":"Memiliki bulu yang keriting dan lebat."
+        },
+        {
+          "url": "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650215481/anton-nikolov-DsqBeGYdjKo-unsplash_tosbk1.jpg",
+          "name": "Silkie Marmut",
+          "rate":"2/5",
+          "dec":"Mirip dengan marmut Peruvian namun rambutnya lebih tertata dan wajahnya tidak tertutupi."
+        },
+        {
+          "url": "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650215479/bonnie-kittle-MUcxe_wDurE-unsplash_vfh8v8.jpg",
+          "name": "Peruvian Marmut",
+          "rate":"5/5",
+          "dec":"Memiliki bulu yang sangat panjang dan lebat jika marmut ini berjalan, bulunya akan menyentuh tanah."
+        },
+        {
+          "url": "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650215478/bonnie-kittle-FOvn9EAwM54-unsplash_kmkkz6.jpg",
+          "name": "American Marmut",
+          "rate":"3/5",
+          "dec":"Memiliki bulu yang lebih panjang dan tubuh yang lebih besar daripada marmut local. Memiliki ciri khas poni jabrik pada bulu kepalanya."
+        },
+        {
+          "url": "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650225705/katherine-mcadoo-vSS2_KfzbLY-unsplash_xpvogq.jpg",
+          "name": "Abyssinian Marmut",
+          "rate":"4/5",
+          "dec":"Memiliki bulu yang lebat di seluruh badanya, mirip seperti boneka."
+        },
+        {
+          "url": "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650225706/karlijn-prot-5hMlxeWjVCo-unsplash_ovgjtq.jpg",
+          "name": "Himalaya Marmut",
+          "rate":"2/5",
+          "dec":"Memiliki bulu pendek."
+        },
+        {
+          "url": "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650225706/matthew-halmshaw-Lb261syOPVU-unsplash_nef8x4.jpg",
+          "name": "Texel Marmut",
+          "rate":"4/5",
+          "dec":"Memiliki bulu yang keriting dan lebat."
+        },
+        {
+          "url": "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650215481/anton-nikolov-DsqBeGYdjKo-unsplash_tosbk1.jpg",
+          "name": "Silkie Marmut",
+          "rate":"2/5",
+          "dec":"Mirip dengan marmut Peruvian namun rambutnya lebih tertata dan wajahnya tidak tertutupi."
+        },
+        {
+          "url": "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650215479/bonnie-kittle-MUcxe_wDurE-unsplash_vfh8v8.jpg",
+          "name": "Peruvian Marmut",
+          "rate":"5/5",
+          "dec":"Memiliki bulu yang sangat panjang dan lebat jika marmut ini berjalan, bulunya akan menyentuh tanah."
+        },
+        {
+          "url": "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650215478/bonnie-kittle-FOvn9EAwM54-unsplash_kmkkz6.jpg",
+          "name": "American Marmut",
+          "rate":"3/5",
+          "dec":"Memiliki bulu yang lebih panjang dan tubuh yang lebih besar daripada marmut local. Memiliki ciri khas poni jabrik pada bulu kepalanya."
+        }
+      ],
+      "movieObject" : [
+        {
+          "image":
+            "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650219557/image_10_gzbyuw.png",
+          "play": "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650219586/Play_Button_ppszrr.png",
+          "title": "THE SECRET LIFE OF PETS 2 ",
+          "year": "2019",
+          "ishare":
+            "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650220414/bxs_share-alt_ahvf8p.png",
+          "ifav": "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650220414/icon-park-outline_like_eoh9cj.png"
+        },
+        {
+          "image":
+            "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650219550/image_7_xl5re6.png",
+          "play": "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650219586/Play_Button_ppszrr.png",
+          "title": "THE SECRET LIFE OF PETS ",
+          "year": "2016",
+          "ishare":
+            "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650220414/bxs_share-alt_ahvf8p.png",
+          "ifav": "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650220414/icon-park-outline_like_eoh9cj.png"
+        },
+        {
+          "image": "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650219557/image_9_iupcsg.png",
+          "play": "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650219586/Play_Button_ppszrr.png",
+          "title": "PETS UNITED",
+          "year": "2019",
+          "ishare":
+            "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650220414/bxs_share-alt_ahvf8p.png",
+          "ifav": "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650220414/icon-park-outline_like_eoh9cj.png"
+        },
+        {
+          "image": "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650219552/image_5_o9uubz.png",
+          "play": "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650219586/Play_Button_ppszrr.png",
+          "title": "TALES OF THE RIVERBANK",
+          "year": "2008",
+          "ishare":
+            "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650220414/bxs_share-alt_ahvf8p.png",
+          "ifav": "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650220414/icon-park-outline_like_eoh9cj.png"
+        },
+        {
+          "image": "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650219551/image_4_b3puyk.png",
+          "play": "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650219586/Play_Button_ppszrr.png",
+          "title": "BEDTIME STORIES",
+          "year": "2008",
+          "ishare":
+            "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650220414/bxs_share-alt_ahvf8p.png",
+          "ifav": "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650220414/icon-park-outline_like_eoh9cj.png"
+        },
+        {
+          "image": "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650219551/image_6_zah2vt.png",
+          "play": "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650219586/Play_Button_ppszrr.png",
+          "title": "G-FORCE",
+          "year": "2009",
+          "ishare":
+            "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650220414/bxs_share-alt_ahvf8p.png",
+          "ifav": "https://res.cloudinary.com/dycpjvu2b/image/upload/v1650220414/icon-park-outline_like_eoh9cj.png"
+        }
+      ]
+
+}

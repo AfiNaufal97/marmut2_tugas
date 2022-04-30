@@ -1,10 +1,10 @@
 import React from "react";
-import MovieObject from "../../../util/movie";
+import JsonData from '../../../util/Json/data.json'
 
 export default function index() {
   return (
     <div className="mb-[100px] mt-[100px] md:grid md:grid-cols-2  lg:grid-cols-2   xl:grid-cols-3">
-      {MovieObject.map((e) => {
+      {JsonData.movieObject.map((e) => {
         return ( <div className="max-w-sm mx-auto h-[400px]">
          <div className="bg-white shadow-lg shadow-slate-400 rounded-[30px] p-2 group">
            <div className="rounded-[30px] overflow-hidden relative">

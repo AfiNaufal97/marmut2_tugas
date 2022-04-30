@@ -1,0 +1,29 @@
+.information{
+    position: relative;
+}
+.information-list{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    z-index: 1;
+    text-align: left;
+    border-radius: 10;
+    padding-left: 10px;
+    font-weight: 500;
+    width: 200px;
+    background-color: #CA965D;
+}
+.information:hover {
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.information:focus {
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.information:hover .information-list{
+    display: block;
+    transition:1s;
+}

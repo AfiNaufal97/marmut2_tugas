@@ -1,54 +1,69 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 
-export default class MultipleItems extends Component {
+export default class Responsive extends Component {
   render() {
-    const settings = {
+    var settings = {
       dots: true,
-      infinite: true,
+      infinite: false,
       speed: 500,
-      slidesToShow: 3,
-      slidesToScroll: 3,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      initialSlide: 0,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
     };
     return (
       <div>
-        <h2> Multiple items </h2>
+        <h2> Responsive </h2>
         <Slider {...settings}>
-          <div className="shadow-lg shadow-slate-300 bg-white rounded-[20px] mr-5">
-            <img
-              src='https://res.cloudinary.com/dycpjvu2b/image/upload/v1649886803/marmut1_h4eukg.svg'
-              alt="e"
-              className="w-[500px] h-[300px] mx-auto"
-            />
-            <p className="text-center">Marmut</p>
-            <p className="text-center text-[16px] font-semibold"></p>
+          <div className="bg-red-500">
+            <h3>1</h3>
           </div>
-          <div className="shadow-lg shadow-slate-300 bg-white mb-[30px] rounded-[20px] mr-5">
-            <img
-              src='https://res.cloudinary.com/dycpjvu2b/image/upload/v1649886800/marmut2_egzjyy.svg'
-              alt="e"
-              className="w-[500px] h-[300px] mx-auto"
-            />
-            <p className="text-center">Marmut</p>
-            <p className="text-center text-[16px] font-semibold"></p>
+          <div  className="bg-red-500"> 
+            <h3>2</h3>
           </div>
-          <div className="shadow-lg shadow-slate-300 bg-white mb-[30px] rounded-[20px] mr-5">
-            <img
-              src='https://res.cloudinary.com/dycpjvu2b/image/upload/v1649886802/marmut3_gckqde.svg'
-              alt="e"
-              className="w-[500px] h-[300px] mx-auto"
-            />
-            <p className="text-center">Marmut</p>
-            <p className="text-center text-[16px] font-semibold"></p>
+          <div  className="bg-red-500">
+            <h3>3</h3>
           </div>
-          <div className="shadow-lg shadow-slate-300 bg-white mb-[30px] rounded-[20px] mr-5">
-            <img
-              src='https://res.cloudinary.com/dycpjvu2b/image/upload/v1649886799/marmut4_ptfqhk.svg'
-              alt="e"
-              className="w-[500px] h-[300px] mx-auto"
-            />
-            <p className="text-center">Marmut</p>
-            <p className="text-center text-[16px] font-semibold"></p>
+          <div  className="bg-red-500">
+            <h3>4</h3>
+          </div>
+          <div  className="bg-red-500">
+            <h3>5</h3>
+          </div>
+          <div  className="bg-red-500">
+            <h3>6</h3>
+          </div>
+          <div  className="bg-red-500">
+            <h3>7</h3>
+          </div>
+          <div  className="bg-red-500">
+            <h3>8</h3>
           </div>
         </Slider>
       </div>

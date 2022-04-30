@@ -21,7 +21,7 @@ export default class index extends Component {
          <SlicMD />
         </div>
 
-        <div className="hidden max-w-[300px] mx-auto mb-[50px] md:hidden xl:block xl:max-w-full xl:mb-[60px]">
+        <div className="hidden max-w-[300px] mx-auto mb-[50px] md:hidden xl:block xl:max-w-screen-2xl xl:mb-[60px]">
          <SlicLG />
         </div>
       </div>

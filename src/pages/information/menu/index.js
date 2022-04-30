@@ -10,7 +10,8 @@ import {Link} from 'react-router-dom'
         Informasi tentang marmut
       </p>
       <p className="text-white mb-[15px] cursor-pointer">
-        Diet Information <span className="ml-[20px]">{symbolNav}</span>
+      <Link to='/gallery' onClick={()=> props.info()}>Gallery</Link>
+         <span className="ml-[20px]">{symbolNav}</span>
       </p>
       <p className="text-white mb-[15px] cursor-pointer ">
       <Link to='/mating' onClick={()=> props.info()}> Mating and Information</Link>

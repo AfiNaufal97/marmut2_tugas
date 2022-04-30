@@ -1,21 +1,24 @@
 export const rootStore = {
   position: "",
-  information: false,
+  detailMarmut:{
+
+  }
 };
 
 const Reducer = (state = rootStore, action) => {
-  if (action.type === "information") {
-    return {
-      ...state,
-      information: !state.information,
-    };
-  } else if (action.type === "home") {
+  if (action.type === "home") {
     return {
       ...state,
       position: "home",
     };
   }
-  return state
+  if(action.type === "detail"){
+    return{
+      ...state,
+      detailMarmut:action.value
+    }
+  }
+  return state;
 };
 
 export default Reducer;

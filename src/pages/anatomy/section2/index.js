@@ -1,10 +1,10 @@
 import React from "react";
-import objectData from "../../../util/ciri/index";
+import JsonData from '../../../util/Json/data.json'
 
 export default function index() {
   return (
     <div className="md:hidden">
-      {objectData.map((e) => {
+      {JsonData.objectData.map((e) => {
         return (
           <div>
             <p className="text-black text-[18px] font-bold text-left">
